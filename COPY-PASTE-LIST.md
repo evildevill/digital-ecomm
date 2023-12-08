@@ -1,8 +1,6 @@
-# DigitalHippo - A Modern Fullstack E-Commerce Marketplace for Digital Products
+# Waseem Akram - A Modern Fullstack E-Commerce Marketplace for Digital Products
 
 Built with the Next.js 14 App Router, tRPC, TypeScript, Payload & Tailwind
-
-![Project Image](https://github.com/joschan21/digitalhippo/blob/master/public/thumbnail.jpg)
 
 ## Copy & Paste List to follow along with the video (annoying stuff we don't wanna type out ourselves)
 
@@ -649,7 +647,7 @@ export function constructMetadata({
       creator: '@joshtriedcoding',
     },
     icons,
-    metadataBase: new URL('https://digitalhippo.up.railway.app'),
+    metadataBase: new URL('https://digital-ecomm-production.up.railway.app'),
     ...(noIndex && {
       robots: {
         index: false,
